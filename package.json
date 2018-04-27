@@ -1,0 +1,23 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "Authentication using npm library passport.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poo17nam/oauth.git"
+  },
+  "author": "Poonam Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poo17nam/oauth/issues"
+  },
+  "homepage": "https://github.com/poo17nam/oauth#readme",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  }
+}
