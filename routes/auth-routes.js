@@ -11,12 +11,13 @@ router.get('/logout',(req,res) => {
   res.send('logging out')
 })
 
-// auth with Google
+// auth with Google,returns code
 router.get('/google',passport.authenticate('google',{
   scope: ['profile']
 }))
 
 // callback route for google to redirect to
+// passport callback function fires that exchanges that code for profile information
 router.get('/google/redirect',passport.authenticate('google'),(req,res) =>{
   res.send('you reached the callback URI')
 })
