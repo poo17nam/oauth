@@ -3,7 +3,7 @@ Authentication using npm library passport.js.
 
 ## Built With
 
-* [express](https://www.npmjs.com/package/express) - The web framework by [Nodejs](https://nodejs.org/en/) used
+* [express](https://www.npmjs.com/package/express) - [Nodejs](https://nodejs.org/en/)'s web framework.
 * [mLab](https://mlab.com/) - The cloud database service used for MongoDB.
 
 ## Getting Started
