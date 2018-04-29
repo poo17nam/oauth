@@ -56,17 +56,19 @@
       <li><a href="/auth/login">Login</a></li>
       <% } %>
       <li><a href="/">Homepage</a></li>
-      <li><a href="/">Profile</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>OAuth using Passport.js</h1>
-    <h2>Homepage</h2>
+    <h1>Welcome to your profile, <%= user.username %></h1>
+
   </header>
 
   <main>
-    <p>Authentication for social media platforms such as Google, Facebook.</p>
+    <img src="<%= user.thumbnail %>" alt="Image not found">
+    <p>
+      This is your profile thumbnail
+    </p>
   </main>
 
 </body>
