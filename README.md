@@ -1,6 +1,9 @@
 # Oauth
 Authentication using npm library passport.js.
 
+## Overview
+![OAuth overview](https://github.com/poo17nam/oauth/blob/master/views/oauth-overview.png)
+
 ## Built With
 
 * [express](https://www.npmjs.com/package/express) - The web framework by [Nodejs](https://nodejs.org/en/) used
@@ -55,7 +58,7 @@ module.exports = {
 After adding the above, you are good to go. Go ahead and run the project :
 
 ```
-nodemon app.js
+$ nodemon app.js
 ```
 
 This will start your server on http://localhost:3000. Go to your browser and check it out.
